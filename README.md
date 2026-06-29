@@ -97,9 +97,7 @@
     ├── source_notes.md
     ├── cross_verification_report.md
     ├── normalization_rules.md
-    ├── preservation_notes.md
-    ├── source_variant_review.md
-    └── policy_decisions.md
+    └── preservation_notes.md
 ```
 
 ---

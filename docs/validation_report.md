@@ -7,5 +7,5 @@ Generated: 2026-06-29
 - Verses in search index: 31,101
 - Public data files: full JSON, 66 book JSON files, search index
 - Public documentation: source notes, cross-verification report, normalization
-  rules, preservation notes, source variant review, policy decisions
+  rules, preservation notes
 - Status: release candidate prepared for GitHub publication

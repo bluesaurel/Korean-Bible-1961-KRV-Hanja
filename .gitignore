@@ -34,6 +34,8 @@ docs/goal_completion_audit.md
 docs/public_release_readiness.md
 docs/format_policy.md
 docs/known_issues.md
+docs/policy_decisions.md
+docs/source_variant_review.md
 
 # private evidence file types
 *.jpg
