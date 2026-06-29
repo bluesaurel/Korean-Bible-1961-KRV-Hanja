@@ -1,0 +1,45 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# dependencies / local env
+node_modules/
+.env
+.env.*
+
+# private or local source material
+raw/
+source/
+sources/
+originals/
+scans/
+photos/
+private/
+internal/
+evidence-private/
+reports-private/
+archive/
+tmp/
+
+# non-public working drafts in this folder
+README2.md
+README3.md
+RELEASE_MANIFEST.json
+docs/release_manifest.json
+docs/evidence_ledger.md
+docs/goal_completion_audit.md
+docs/public_release_readiness.md
+docs/format_policy.md
+docs/known_issues.md
+
+# private evidence file types
+*.jpg
+*.jpeg
+*.png
+*.pdf
+*.tif
+*.tiff
+*.zip
