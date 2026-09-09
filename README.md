@@ -1,7 +1,7 @@
 # Korean-Bible-1961-KRV-Hanja (1961년 국한문 개역한글 성경)
 
 [![Language](https://img.shields.io/badge/Language-Korean%20%2F%20Hanja-blue.svg)](https://en.wikipedia.org/wiki/Bible_translations_into_Korean)
-[![License](https://img.shields.io/badge/License-KRV_Use_Permitted-green.svg)](https://www.bskorea.or.kr/bbs/board.php?bo_table=copyright_faq&wr_id=5)
+[![License](https://img.shields.io/badge/License-See_Source_Notice-green.svg)](https://www.bskorea.or.kr/bbs/board.php?bo_table=copyright_faq&wr_id=5)
 [![Validation](https://img.shields.io/badge/Validation-Documented-brightgreen.svg)](docs/validation_report.md)
 [![Status](https://img.shields.io/badge/Status-Release_Candidate-success.svg)](docs/cross_verification_report.md)
 
@@ -39,6 +39,11 @@
 세부 검수 계보와 보정 근거는
 [교차검증 상세 리포트](docs/cross_verification_report.md)를 참고하십시오.
 
+위 수치는 2026년 6월 29일 문서에 기록된 후보본의 검수 요약이며, 공개
+웹 화면·참고 자료와 당시의 정규화·절 좌표 정책에 한정됩니다. 공식
+국한문 정본과의 동일성이나 데이터 무오류를 보증하지 않으며, 외부 사이트의
+원문·HTML·JSON 캐시는 공개 패키지에 포함하지 않습니다.
+
 ---
 
 ## 주요 특징 (Key Features)
@@ -74,6 +79,10 @@
 대한성서공회 자료는 국문 개역한글 기준 확인에 사용했으며, 위키문헌
 자료는 국한문 대조 참고 자료로 사용했습니다. 위키문헌 자료를 공식
 국한문 정본으로 단정하지 않습니다.
+
+본 데이터셋은 AI의 도움을 받아 기존에 정리한 데이터를 검토하는 과정에서,
+정확성 확인을 위해 대한성서공회의 공개적으로 확인 가능한 개역한글 1961
+기준 자료를 비교·대조 및 검수 기준으로만 참조하였습니다.
 
 ---
 
@@ -137,12 +146,18 @@
 | 신약 (New Testament) | 27 | 260 | 7,957 |
 | **전체 (Total)** | **66** | **1,189** | **31,101** |
 
+31,101절은 `(없음)` 자리표시 3개를 제외한 본문 수입니다. 권별 데이터에는
+자리표시를 포함한 31,104개 항목이 있으며, 검색 인덱스와 웹 서비스는 해당
+자리표시를 제외합니다. 해당 좌표는 사무엘상 30:31, 시편 72:20,
+고린도후서 13:14이며 [보존 정책](docs/preservation_notes.md)을 따릅니다.
+
 ---
 
 ## 저작권 및 이용 안내 (Copyright & License)
 
-대한성서공회는 『성경전서 개역한글판』의 저작재산권 보호기간이 만료되어
-저작권료 지급 없이 사용할 수 있다고 안내하고 있습니다.
+대한성서공회는 『성경전서 개역한글판』의 이용 가능 범위와 저작권 관련
+사항을 공지하고 있습니다. 실제 이용·배포 전에는 아래 최신 안내와 적용
+범위를 직접 확인해야 합니다.
 
 - 대한성서공회 저작권 FAQ:
   <https://www.bskorea.or.kr/bbs/board.php?bo_table=copyright_faq&wr_id=5>
